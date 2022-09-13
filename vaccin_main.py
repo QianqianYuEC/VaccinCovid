@@ -6,8 +6,9 @@ from vaccin_database import Vaccin_database
 from vaccin_visualization import Visual_extract
 
 if __name__ == '__main__':
-    user_vacc_path = input("Please input your vaccin csv file path:")
-    #'C:/Users/QianqianYu/OneDrive/ECstudy/Python/python_programmering/Assignment/vaccin_covid.csv'
+    
+    user_vacc_path = "vaccin_covid.csv"
+   
     
     data_vaccin = Datahantering(user_vacc_path)
 
